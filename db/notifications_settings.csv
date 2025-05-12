@@ -1,0 +1,3 @@
+id,user_id,student_id,schedule_changes,reminder_2h,homework_ready
+1,123456789,1,1,1,0
+2,987654321,2,1,0,1
