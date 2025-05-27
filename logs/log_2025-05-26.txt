@@ -9,7 +9,6 @@
 2025-05-27 09:54:02,543 | INFO | Update id=269566929 is handled. Duration 0 ms by bot id=7253884817
 2025-05-27 09:54:04,907 | INFO | Update id=269566930 is handled. Duration 296 ms by bot id=7253884817
 2025-05-27 09:54:15,877 | INFO | Update id=269566931 is handled. Duration 109 ms by bot id=7253884817
-2025-05-27 09:54:18,593 | INFO | User 7754342534 успешно авторизовался как Васильева Марина Андреевна
 2025-05-27 09:54:18,600 | INFO | Update id=269566932 is handled. Duration 156 ms by bot id=7253884817
 2025-05-27 09:55:13,354 | INFO | Update id=269566933 is handled. Duration 313 ms by bot id=7253884817
 2025-05-27 09:55:24,442 | INFO | Update id=269566934 is handled. Duration 282 ms by bot id=7253884817
@@ -21,6 +20,5 @@
 2025-05-27 09:55:53,474 | INFO | Update id=269566940 is handled. Duration 125 ms by bot id=7253884817
 2025-05-27 09:55:56,379 | INFO | Update id=269566941 is handled. Duration 250 ms by bot id=7253884817
 2025-05-27 09:55:58,575 | INFO | Update id=269566942 is handled. Duration 109 ms by bot id=7253884817
-2025-05-27 09:56:08,219 | INFO | User 7754342534 (Васильева Марина Андреевна) вышел из системы.
 2025-05-27 09:56:08,329 | INFO | Update id=269566943 is handled. Duration 125 ms by bot id=7253884817
 2025-05-27 10:03:42,644 | INFO | Update id=269566944 is handled. Duration 640 ms by bot id=7253884817
