@@ -1,0 +1,26 @@
+2025-05-26 16:16:57,002 | INFO | Start polling
+2025-05-26 16:16:58,661 | INFO | Run polling for bot @schooldatabasebot id=7253884817 - 'schoolbot'
+2025-05-26 16:17:22,644 | INFO | Update id=269566923 is handled. Duration 359 ms by bot id=7253884817
+2025-05-26 16:20:06,735 | INFO | Update id=269566924 is handled. Duration 547 ms by bot id=7253884817
+2025-05-26 18:29:43,721 | INFO | Update id=269566925 is handled. Duration 406 ms by bot id=7253884817
+2025-05-26 18:29:45,628 | INFO | Update id=269566926 is handled. Duration 327 ms by bot id=7253884817
+2025-05-26 21:52:48,396 | INFO | Update id=269566927 is handled. Duration 327 ms by bot id=7253884817
+2025-05-26 23:09:20,357 | INFO | Update id=269566928 is handled. Duration 484 ms by bot id=7253884817
+2025-05-27 09:54:02,543 | INFO | Update id=269566929 is handled. Duration 0 ms by bot id=7253884817
+2025-05-27 09:54:04,907 | INFO | Update id=269566930 is handled. Duration 296 ms by bot id=7253884817
+2025-05-27 09:54:15,877 | INFO | Update id=269566931 is handled. Duration 109 ms by bot id=7253884817
+2025-05-27 09:54:18,593 | INFO | User 7754342534 успешно авторизовался как Васильева Марина Андреевна
+2025-05-27 09:54:18,600 | INFO | Update id=269566932 is handled. Duration 156 ms by bot id=7253884817
+2025-05-27 09:55:13,354 | INFO | Update id=269566933 is handled. Duration 313 ms by bot id=7253884817
+2025-05-27 09:55:24,442 | INFO | Update id=269566934 is handled. Duration 282 ms by bot id=7253884817
+2025-05-27 09:55:26,697 | INFO | Update id=269566935 is handled. Duration 125 ms by bot id=7253884817
+2025-05-27 09:55:27,520 | INFO | Update id=269566936 is handled. Duration 202 ms by bot id=7253884817
+2025-05-27 09:55:37,796 | INFO | Update id=269566937 is handled. Duration 170 ms by bot id=7253884817
+2025-05-27 09:55:41,296 | INFO | Update id=269566938 is handled. Duration 202 ms by bot id=7253884817
+2025-05-27 09:55:44,938 | INFO | Update id=269566939 is handled. Duration 187 ms by bot id=7253884817
+2025-05-27 09:55:53,474 | INFO | Update id=269566940 is handled. Duration 125 ms by bot id=7253884817
+2025-05-27 09:55:56,379 | INFO | Update id=269566941 is handled. Duration 250 ms by bot id=7253884817
+2025-05-27 09:55:58,575 | INFO | Update id=269566942 is handled. Duration 109 ms by bot id=7253884817
+2025-05-27 09:56:08,219 | INFO | User 7754342534 (Васильева Марина Андреевна) вышел из системы.
+2025-05-27 09:56:08,329 | INFO | Update id=269566943 is handled. Duration 125 ms by bot id=7253884817
+2025-05-27 10:03:42,644 | INFO | Update id=269566944 is handled. Duration 640 ms by bot id=7253884817
