@@ -6,7 +6,7 @@ from keyboards.support import support_inline_menu
 from utils.logger import log_info
 from config import ADMIN_CHAT_ID
 import os
-
+import subprocess
 import csv
 import subprocess
 from datetime import datetime
@@ -22,6 +22,7 @@ def log_action(user_id: int, action: str, details: str = ""):
     log_path = "db/logs.csv"
     already_logged = False
 
+    # Проверка: уже существует такой лог?
     if os.path.exists(log_path):
         with open(log_path, mode="r", encoding="utf-8") as file:
             reader = csv.DictReader(file)
@@ -34,20 +35,31 @@ def log_action(user_id: int, action: str, details: str = ""):
         print(f"⏩ Лог уже существует для user_id={user_id}, action={action}")
         return
 
+    # Подсчёт строк для ID
     if os.path.exists(log_path):
         with open(log_path, mode="r", encoding="utf-8") as file:
-            total_rows = sum(1 for _ in file) - 1  # -1 за заголовок
+            total_rows = sum(1 for _ in file) - 1  # без заголовка
     else:
         total_rows = 0
 
     next_id = total_rows + 1
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+    # Добавляем запись
     with open(log_path, mode="a", encoding="utf-8", newline='') as file:
         writer = csv.writer(file)
         if total_rows == 0:
             writer.writerow(["id", "user_id", "action", "timestamp", "details"])
         writer.writerow([next_id, user_id, action, timestamp, details])
+
+    # Git push
+    try:
+        subprocess.run(["git", "add", log_path], check=True)
+        subprocess.run(["git", "commit", "-m", f"auto: лог {action.lower()} — {user_id}"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("✅ Лог отправлен в GitHub")
+    except subprocess.CalledProcessError as e:
+        print("❌ Ошибка при push в GitHub:", e)
 
 # Автопуш логов в GitHub
 def push_logs_to_github():

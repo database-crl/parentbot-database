@@ -1,3 +1,9 @@
 2025-05-27 13:19:46,389 | INFO | Start polling
 2025-05-27 13:19:47,797 | INFO | Run polling for bot @schooldatabasebot id=7253884817 - 'SchoolHelperBot'
 2025-05-27 13:19:48,209 | INFO | Update id=269567126 is handled. Duration 312 ms by bot id=7253884817
+2025-05-27 13:25:04,908 | INFO | Start polling
+2025-05-27 13:25:06,405 | INFO | Run polling for bot @schooldatabasebot id=7253884817 - 'SchoolHelperBot'
+2025-05-27 13:25:06,836 | INFO | Update id=269567127 is handled. Duration 312 ms by bot id=7253884817
+2025-05-27 13:29:07,422 | INFO | Start polling
+2025-05-27 13:29:08,886 | INFO | Run polling for bot @schooldatabasebot id=7253884817 - 'SchoolHelperBot'
+2025-05-27 13:29:12,575 | INFO | Update id=269567128 is handled. Duration 2234 ms by bot id=7253884817
